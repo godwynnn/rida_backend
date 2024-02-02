@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-)uw%^8hl8+y*+po^001@9cr20@90!x-fw$te*1=iz427=iml3+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.43.28','127.0.0.1','928e-197-211-53-5.ngrok-free.app']
+ALLOWED_HOSTS = ['192.168.43.28','127.0.0.1','2034-197-211-63-120.ngrok-free.app']
 
 
 # Application definition
@@ -168,7 +168,7 @@ SIMPLE_JWT = {
 # CORS HEADERS SETUP
 CORS_ALLOWED_ORIGINS = [
     "http://192.168.43.28:8081",
-    "https://928e-197-211-53-5.ngrok-free.app",
+    "https://2034-197-211-63-120.ngrok-free.app",
    
 ]
 
