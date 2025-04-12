@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-)uw%^8hl8+y*+po^001@9cr20@90!x-fw$te*1=iz427=iml3+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.43.28','127.0.0.1','2034-197-211-63-120.ngrok-free.app']
+ALLOWED_HOSTS = ['localhost','127.0.0.1','1319-105-120-129-138.ngrok-free.app','2jbdf5hq-8000.uks1.devtunnels.ms']
 
 
 # Application definition
@@ -167,12 +167,16 @@ SIMPLE_JWT = {
 
 # CORS HEADERS SETUP
 CORS_ALLOWED_ORIGINS = [
-    "http://192.168.43.28:8081",
-    "https://2034-197-211-63-120.ngrok-free.app",
+    # "http://127.0.0.1:8081",
+    "exp://127.0.0.1:8081",
+    "https://1319-105-120-129-138.ngrok-free.app",
+    "https://p4clf7zf-8000.uks1.devtunnels.ms"
    
 ]
 
 # CORS_ORIGIN_WHITELIST = [
-#     "http://192.168.43.28:8081",
+#     "http://127.0.0.1:8081",
+#     "exp://127.0.0.1:8081",
 # ]
 CORS_ALLOW_ALL_ORIGINS = True
+GOOGLE_API_KEY='AIzaSyCaN1anwn13_6U_j1KZ05q1sLF1l671NPg'
